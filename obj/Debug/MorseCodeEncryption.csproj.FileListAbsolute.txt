@@ -1,0 +1,15 @@
+C:\Users\saeed\source\repos\MorseCodeEncryption\bin\Debug\MorseCodeEncryption.exe.config
+C:\Users\saeed\source\repos\MorseCodeEncryption\bin\Debug\MorseCodeEncryption.exe
+C:\Users\saeed\source\repos\MorseCodeEncryption\bin\Debug\MorseCodeEncryption.pdb
+C:\Users\saeed\source\repos\MorseCodeEncryption\obj\Debug\MorseCodeEncryption.csproj.AssemblyReference.cache
+C:\Users\saeed\source\repos\MorseCodeEncryption\obj\Debug\MorseCodeEncryption.csproj.SuggestedBindingRedirects.cache
+C:\Users\saeed\source\repos\MorseCodeEncryption\obj\Debug\MorseCodeEncryption.Form1.resources
+C:\Users\saeed\source\repos\MorseCodeEncryption\obj\Debug\MorseCodeEncryption.Properties.Resources.resources
+C:\Users\saeed\source\repos\MorseCodeEncryption\obj\Debug\MorseCodeEncryption.csproj.GenerateResource.cache
+C:\Users\saeed\source\repos\MorseCodeEncryption\obj\Debug\MorseCodeEncryption.csproj.CoreCompileInputs.cache
+C:\Users\saeed\source\repos\MorseCodeEncryption\obj\Debug\MorseCodeEncryption.exe
+C:\Users\saeed\source\repos\MorseCodeEncryption\obj\Debug\MorseCodeEncryption.pdb
+C:\Users\saeed\source\repos\MorseCodeEncryption\bin\Debug\MorseCodeEncryption.exe.manifest
+C:\Users\saeed\source\repos\MorseCodeEncryption\bin\Debug\MorseCodeEncryption.application
+C:\Users\saeed\source\repos\MorseCodeEncryption\obj\Debug\MorseCodeEncryption.exe.manifest
+C:\Users\saeed\source\repos\MorseCodeEncryption\obj\Debug\MorseCodeEncryption.application
