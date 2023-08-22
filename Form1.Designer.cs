@@ -42,21 +42,26 @@
             // txbEnglish
             // 
             this.txbEnglish.AcceptsReturn = true;
-            this.txbEnglish.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.txbEnglish.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txbEnglish.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txbEnglish.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbEnglish.Font = new System.Drawing.Font("Candara", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txbEnglish.ForeColor = System.Drawing.Color.Gray;
             this.txbEnglish.Location = new System.Drawing.Point(4, 118);
             this.txbEnglish.Multiline = true;
             this.txbEnglish.Name = "txbEnglish";
             this.txbEnglish.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txbEnglish.Size = new System.Drawing.Size(348, 279);
             this.txbEnglish.TabIndex = 0;
+            this.txbEnglish.Text = "Enter a Text";
+            this.txbEnglish.Enter += new System.EventHandler(this.txbEnglish_Enter);
+            this.txbEnglish.Leave += new System.EventHandler(this.txbEnglish_Leave);
             // 
             // txbMorseCode
             // 
             this.txbMorseCode.AcceptsReturn = true;
-            this.txbMorseCode.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.txbMorseCode.Font = new System.Drawing.Font("Candara", 12F);
+            this.txbMorseCode.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txbMorseCode.Font = new System.Drawing.Font("Candara", 10F);
+            this.txbMorseCode.ForeColor = System.Drawing.Color.Gray;
             this.txbMorseCode.Location = new System.Drawing.Point(452, 118);
             this.txbMorseCode.Multiline = true;
             this.txbMorseCode.Name = "txbMorseCode";
@@ -64,6 +69,8 @@
             this.txbMorseCode.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txbMorseCode.Size = new System.Drawing.Size(348, 279);
             this.txbMorseCode.TabIndex = 1;
+            this.txbMorseCode.Enter += new System.EventHandler(this.txbMorseCode_Enter);
+            this.txbMorseCode.Leave += new System.EventHandler(this.txbMorseCode_Leave);
             // 
             // label1
             // 

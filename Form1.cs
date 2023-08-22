@@ -436,5 +436,41 @@ namespace MorseCodeEncryption
 			txbEnglish.Text = "";
 			txbMorseCode.Text = "";
 		}
+
+        private void txbEnglish_Enter(object sender, EventArgs e)
+        {
+			if (!txbEnglish.ReadOnly)
+            {
+				txbEnglish.Text = "";
+				txbEnglish.ForeColor = Color.Black;
+            }
+        }
+
+        private void txbEnglish_Leave(object sender, EventArgs e)
+        {
+			if (!txbEnglish.ReadOnly)
+			{
+				txbEnglish.Text = "Enter a Text";
+				txbEnglish.ForeColor = Color.Gray;
+			}
+		}
+
+		private void txbMorseCode_Enter(object sender, EventArgs e)
+        {
+			if (!txbMorseCode.ReadOnly)
+			{
+				txbMorseCode.Text = "";
+				txbMorseCode.ForeColor = Color.Black;
+			}
+		}
+
+        private void txbMorseCode_Leave(object sender, EventArgs e)
+        {
+			if (!txbMorseCode.ReadOnly)
+			{
+				txbMorseCode.Text = "Enter a Morse Code";
+				txbMorseCode.ForeColor = Color.Gray;
+			}
+		}
     }
 }
