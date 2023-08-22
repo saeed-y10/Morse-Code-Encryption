@@ -17,11 +17,6 @@ namespace MorseCodeEncryption
 			InitializeComponent();
 		}
 
-		private bool IsMorseCode(char Code)
-		{
-			return (Code == '.' || Code == '-');
-		}
-
 		private bool IsMorseCode(string Code)
 		{
 			foreach (char c in Code)
@@ -378,7 +373,7 @@ namespace MorseCodeEncryption
 		private string Decryption(string Text)
 		{
 			if (!IsValidCode(Text))
-				return "Invalid Input!";
+				return "";
 
 			string []vText = Text.Split(' ');
 
@@ -448,7 +443,7 @@ namespace MorseCodeEncryption
 
         private void txbEnglish_Leave(object sender, EventArgs e)
         {
-			if (!txbEnglish.ReadOnly)
+			if (!txbEnglish.ReadOnly && txbEnglish.Text == "")
 			{
 				txbEnglish.Text = "Enter a Text";
 				txbEnglish.ForeColor = Color.Gray;
@@ -466,7 +461,7 @@ namespace MorseCodeEncryption
 
         private void txbMorseCode_Leave(object sender, EventArgs e)
         {
-			if (!txbMorseCode.ReadOnly)
+			if (!txbMorseCode.ReadOnly && txbMorseCode.Text == "")
 			{
 				txbMorseCode.Text = "Enter a Morse Code";
 				txbMorseCode.ForeColor = Color.Gray;
